@@ -1,0 +1,122 @@
+.service-header-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-size: 24px;
+  font-family: 'Kaushan Script', cursive;
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 20px;
+  position: relative;
+  margin-bottom: 90px;
+  margin-top: 50px;
+}
+
+.service-header-bottom {
+  display: block;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(51, 51, 51);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.service-header-bottom::after {
+  content: '';
+  display: block;
+  width: 65px;
+  height: 3px;
+  background-color: #f38181;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.service-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.service-item {
+  width: 360px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  padding-left: 60px;
+  padding-bottom: 80px;
+}
+
+.service-item:before {
+  content: '';
+  display: block;
+  height: 32px;
+  background-repeat: no-repeat;
+}
+
+.service-icon-header {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.service-icon-text {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(153, 153, 153);
+  line-height: 1.6;
+  text-align: left;
+}
+
+.photography-icon {
+  background-image: url(./icons/alarm.svg);
+  background-repeat: no-repeat;
+}
+
+.web-icon {
+  background-image: url(./icons/line.svg);
+  background-repeat: no-repeat;
+}
+
+.computer-icon {
+  background-image: url(./icons/computer.svg);
+  background-repeat: no-repeat;
+}
+
+.book-icon {
+  background-image: url(./icons/book.svg);
+  background-repeat: no-repeat;
+}
+
+.house-icon {
+  background-image: url(./icons/home.svg);
+  background-repeat: no-repeat;
+}
+
+.picture-icon {
+  background-image: url(./icons/image.svg);
+  background-repeat: no-repeat;
+}

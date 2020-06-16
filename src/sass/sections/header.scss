@@ -1,0 +1,131 @@
+.nav-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 28px;
+  margin-bottom: 180px;
+}
+
+.nav-bar__wrapper {
+  width: 630px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.nav-list {
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 11px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.nav-list__link {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  position: relative;
+}
+
+.nav-list__link:hover,
+.nav-list__link:focus {
+  color: #fce38a;
+  cursor: pointer;
+}
+
+.nav-list__link:hover::after {
+  width: 100%;
+}
+
+.nav-list__link::after {
+  display: block;
+  content: '';
+  background-color: #fce38a;
+  width: 0%;
+  height: 3px;
+  position: absolute;
+  bottom: -10px;
+  -webkit-transition: width linear;
+  -o-transition: width linear;
+  transition: width linear;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.side-btns {
+  width: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 12px;
+}
+
+.side-btns:hover {
+  fill: #fce38a;
+}
+
+.top-title {
+  font-size: 72px;
+  font-family: 'Kaushan Script', cursive;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.main-title {
+  display: block;
+  font-size: 150px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.933;
+  text-align: center;
+  width: 830px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.btn-learn-more {
+  display: block;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 14px;
+  font-family: 'Montserrat';
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  padding: 10px 25px;
+  margin: 0 auto;
+}

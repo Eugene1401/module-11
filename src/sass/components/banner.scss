@@ -1,0 +1,15 @@
+.banner {
+  background-image: url(./background.jpg);
+  height: 995px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+  (-o-min-device-pixel-ratio: 2/1),
+  (min-resolution: 192dpi) {
+  .banner {
+    background-image: url(./background-retina.jpg);
+  }
+}
